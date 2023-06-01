@@ -5,7 +5,7 @@ import pygame
 
 pygame.init()
 window = pygame.display.set_mode((500, 500))
-world = random_world(500, 500)
+world = random_world(500, 500, 0.75)
 
 
 run = True
